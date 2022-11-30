@@ -1,0 +1,27 @@
+.lista-metricas {
+	display:		flex;
+	flex-direction:	row;
+	gap: 3em;
+}
+
+.dados-metricas {
+	width:			25vw;
+}
+
+.titulo-metricas {
+	font-size:		60px;
+	font-weight:	600;
+	color:			var(--cor-destaque);
+}
+
+.subtitulo-metricas {
+	font-size:		18px;
+	color:			var(--cor-titulo);
+	margin-top:		1.5em;
+}
+
+.texto-metricas {
+	margin-top:		1em;
+	font-weight:	400;
+	line-height:	1.5em;
+}

@@ -1,0 +1,26 @@
+@import url("navbar.css");
+@import url("cabecalho.css");
+@import url("metricas.css");
+@import url("vagas.css");
+@import url("depoimentos.css");
+@import url("rodape.css");
+
+:root {
+	--fonte:				'Inter', sans-serif;
+	--cor-texto:			#667085;
+	--cor-destaque:			#8E2424;
+	--cor-fundo-transp:		#8E24240D;
+	--cor-texto-destaque:	#FFFFFF;
+	--cor-titulo:			#101828;
+	--cor-linha-tabela:		#EAECF0;
+	--cor-fundo-rodape:		#F9FAFB;
+	--cor-linha-email:		#D0D5DD;
+}
+
+body {
+	font-family:	var(--fonte);
+	color:			var(--cor-texto);
+	font-size:		16px;
+	font-weight:	500;
+	margin:			2vh 10vw 0 10vw;
+}
