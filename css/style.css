@@ -1,20 +1,38 @@
 @import url("navbar.css");
+@import url("navbar-tablet.css");
+@import url("navbar-celular.css");
+
 @import url("cabecalho.css");
+@import url("cabecalho-tablet.css");
+@import url("cabecalho-celular.css");
+
 @import url("metricas.css");
+@import url("metricas-tablet.css");
+@import url("metricas-celular.css");
+
 @import url("vagas.css");
+@import url("vagas-celular.css");
+
 @import url("depoimentos.css");
+@import url("depoimentos-celular.css");
+
 @import url("rodape.css");
+@import url("rodape-celular.css");
 
 :root {
 	--fonte:				'Inter', sans-serif;
 	--cor-texto:			#667085;
 	--cor-destaque:			#8E2424;
-	--cor-fundo-transp:		#8E24240D;
-	--cor-texto-destaque:	#FFFFFF;
+
 	--cor-titulo:			#101828;
+	--cor-texto-destaque:	#FFFFFF;
+
 	--cor-linha-tabela:		#EAECF0;
-	--cor-fundo-rodape:		#F9FAFB;
 	--cor-linha-email:		#D0D5DD;
+
+	--cor-fundo-rodape:		#F9FAFB;
+	--cor-fundo-transp:		#8E24240D;
+	--cor-fundo-navbar:		#FFFFFF;
 }
 
 body {
@@ -22,5 +40,16 @@ body {
 	color:			var(--cor-texto);
 	font-size:		16px;
 	font-weight:	500;
-	margin:			2vh 10vw 0 10vw;
+	margin:			1% 10% 0 10%;
+}
+
+@media screen and (max-width: 1024px){
+	body {
+		margin: 0;
+	}
+
+	.body-fixo {
+		position: fixed;
+		width: 100vw;
+	}
 }

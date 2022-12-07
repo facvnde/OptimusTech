@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 
 		<!-- aqui verificamos em qual dispositivo é acionado -->
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>OptimusTech</title>
 
@@ -24,6 +24,7 @@
 	<body>
 		<!-- inicio navbar -->
 		<section class="navbar">
+			<!-- inicio menu/navbar PC -->
 			<div class="content-navbar">
 				<img src="img/logo-empresa.svg" alt="Logo da OptimusTech" class="logo-navbar">
 
@@ -43,7 +44,56 @@
 					<a href="#" class="botao-navbar botao-cadastrar">Cadastrar</a>
 				</div>
 			</div>
+			<!-- fim menu/navbar PC-->
+
+			<!-- inicio menu/navbar mobile -->
+			<div class="content-navbar-mobile">
+				<img src="img/botao-menu.svg" alt="Botão para abrir e fechar o menu lateral" class="botao-menu">
+
+				<img src="img/logo-empresa.svg" alt="Logo da OptimusTech" class="logo-navbar-mobile">
+
+				
+				<div class="botoes-navbar">
+					<a href="#" class="botao-navbar botao-entrar">Entrar</a>
+					<a href="#" class="botao-navbar botao-cadastrar">Cadastrar</a>
+				</div>
+			</div>
+			<!-- fim menu/navbar mobile -->
 		</section>
+
+		<!-- inicio lista menu lateral -->
+		<div class="menu-lateral">
+			<div class="container-menu">
+				<ul class="menu-lista">
+					<li class="menu-item item-ativo">
+						<a href="#" class="link-lista link-ativo">Home</a>
+					</li>
+					
+					<li class="menu-item">
+						<a href="#" class="link-lista">Produtos</a>
+					</li>
+					
+					<li class="menu-item">
+						<a href="#" class="link-lista">Recursos</a>
+					</li>
+					
+					<li class="menu-item">
+						<a href="#" class="link-lista">Sobre Nós</a>
+					</li>
+				</ul>
+
+				<ul class="menu-usuario">
+					<li class="usuario-item">
+						<a href="#" class="usuario-link">Entrar</a>
+					</li>
+
+					<li class="usuario-item usuario-cadastro">
+						<a href="#" class="usuario-link usuario-cadastrar">Cadastrar</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- fim lista menu lateral -->
 		<!-- fim navbar -->
 
 		<!-- inicio cabeçalho -->
@@ -215,3 +265,5 @@
 		<!-- fim Rodapé -->
 	</body>
 </html>
+
+<script src="js/menu.js"></script>

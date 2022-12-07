@@ -1,0 +1,9 @@
+@media screen and (max-width: 450px){
+    .lista-metricas {
+        column-gap: 5em;
+    }
+
+    .titulo-metricas {
+        font-size:		3rem;
+    }
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 450px){
+    .rodape {
+        padding: 1.5em 0;
+    }
+
+    .titulo-rodape {
+        font-size:		1.5rem;
+        text-align: center;
+    }
+
+    .texto-rodape {
+        font-size:		1em;
+        text-align: center;
+    }
+}

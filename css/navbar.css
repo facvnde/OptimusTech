@@ -52,3 +52,7 @@
 	background-color:	var(--cor-destaque);
 	color:				var(--cor-texto-destaque);
 }
+
+.content-navbar-mobile, .menu-lateral {
+	display: none;
+}

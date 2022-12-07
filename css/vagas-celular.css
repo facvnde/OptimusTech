@@ -1,0 +1,21 @@
+@media screen and (max-width: 450px){
+    .container-vagas {
+        margin-top: 5em;
+    }
+
+    .titulo-vagas, .texto-vagas {
+        text-align: center;
+    }
+
+    .titulo-vagas {
+        font-size: 30px;
+    }
+
+    .texto-vagas {
+        font-size: 1rem;
+    }
+
+    .cat-vagas {
+        width:	80%;
+    }
+}

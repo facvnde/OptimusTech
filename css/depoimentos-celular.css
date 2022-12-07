@@ -1,0 +1,13 @@
+@media screen and (max-width: 450px){
+    .depoimentos {
+        background-color:	var(--cor-fundo-transp);
+        padding:			3em 0;
+    }
+
+    .desc-depoimentos {
+        font-size:	1.5rem;
+        color:		var(--cor-titulo);
+        margin:		1em 0;
+        text-align:	center;
+    }
+}

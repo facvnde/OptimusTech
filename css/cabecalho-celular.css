@@ -1,0 +1,9 @@
+@media screen and (max-width: 450px){
+    .titulo-cabecalho {
+        font-size:		30px;
+    }
+
+    .texto-cabecalho {
+        font-size:		1rem;
+    }
+}
